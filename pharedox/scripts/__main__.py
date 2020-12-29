@@ -4,7 +4,7 @@ from pathlib import Path
 
 import click
 
-mp.set_start_method("spawn")
+mp.set_start_method("spawn", force=True)
 
 
 @click.group()
